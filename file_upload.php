@@ -1,8 +1,8 @@
 <?php include './includes/title.php';?>
 <?php
-	use classes\fileupload;
+	#use classes\fileupload;
 	// set the maximum upload size in bytes
-	$max = 999999999;
+	$max = 1920 * 1080;
 	if (isset($_POST['upload'])) {
 		// define the path to the upload folder
 		$destination = './upload_test/';

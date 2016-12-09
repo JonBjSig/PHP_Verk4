@@ -1,8 +1,9 @@
 <?php
+
 class Book
 {
-	$title = "";
-	$price = 0;
+	var $title = "";
+	var $price = 0;
 	
 	function __construct($booktitle, $bookprice){
 		$this->title = $booktitle;
